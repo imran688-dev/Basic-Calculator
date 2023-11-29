@@ -1,35 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Javascript DOM | Basic Calculator Project</title>
-</head>
-<style>
-  body{
-    background: yellow;
-    font-size: 20px;
-    text-align: center;
-  }
-</style>
-
-<body>
-  <h1 id="text">Javascript DOM | Basic Calculator Project</h1>
-  <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse rerum vel atque dolor, odit repellat autem excepturi quis sit molestias ipsam a asperiores temporibus maiores veritatis cupiditate nesciunt. Labore, voluptas illum beatae, magni repellat asperiores consequuntur iure culpa sequi, officia sapiente recusandae animi odio dignissimos minus vitae veniam ducimus?</p>
-  <div class="tag" id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et magni autem aspernatur minus repellat corporis delectus explicabo? Eius quidem, aliquam voluptatem, molestias veniam error labore voluptatum ad odio, placeat corporis.</div>
-  <h3 class="tag" id="para">Lorem ipsum dolor sit amet.</h3>
-  <h4 class="tag" id="para">Lorem, ipsum dolor.</h4>
-</body>
-<script src="DOM.js"></script>
-
-</html> -->
-
-
-
-=====================
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +8,7 @@
 </head>
 <style>
   body {
-    background: yellow;
+    background: skyblue;
     font-size: 20px;
     text-align: center;
   }
@@ -48,6 +16,7 @@
   input {
     font-size: 2rem;
     padding: 1rem;
+    margin: 5px;
     border: 2px solid red;
   }
 
@@ -115,7 +84,6 @@
   function subtract() {
     if (inputOne.value && inputTwo.value) {
       let subtract = parseInt(inputOne.value) - parseInt(inputTwo.value);
-      // console.log(add);
       result.innerHTML = subtract;
       clearInput();
     } else {
@@ -168,7 +136,7 @@
   }
 
 
-  
+
   // const heading = document.getElementById("heading");
   // step 02 -take two input value and find the sum of two values.
 
